@@ -1,0 +1,7 @@
+{
+  "name": "SlowLoadingSite",
+  "start_url": "/?home=true",
+  "background_color": "#fff",
+  "description": "A generic slow loading project",
+  "display": "standalone"
+}

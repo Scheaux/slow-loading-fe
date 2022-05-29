@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container_header">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+
+      <main class="main_container">
+        <div class="news_container">
+          <h1>Новости мира и кино</h1>
+          <button id="news-refresh">Обновить</button>
+          <div id="news-posts">
+            <div class="news_post">
+              <div class="news_post_header_a"></div>
+              <div class="flex">
+                <div class="news_post_image_a"></div>
+                <div>
+                  <div class="news_post_description_a"></div>
+                  <div class="news_post_description_a"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="news_post">
+              <div class="news_post_header_a"></div>
+              <div class="flex">
+                <div class="news_post_image_a"></div>
+                <div>
+                  <div class="news_post_description_a"></div>
+                  <div class="news_post_description_a"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="news_post">
+              <div class="news_post_header_a"></div>
+              <div class="flex">
+                <div class="news_post_image_a"></div>
+                <div>
+                  <div class="news_post_description_a"></div>
+                  <div class="news_post_description_a"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal hidden" id="loading-error-modal">
+            <span class="modal_error"
+              >Не удалось загрузить данные. Проверьте подключение и обновите
+              страницу</span
+            >
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>

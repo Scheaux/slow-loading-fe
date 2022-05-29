@@ -1,0 +1,143 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.container {
+  max-width: fit-content;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 5px 3px 8px #a7a7a7;
+}
+
+.container_header {
+  display: flex;
+  background-color: #ccc;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #b1b1b1;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+
+.main_container {
+  padding: 35px;
+  margin: 0 auto;
+  background: conic-gradient(from 90deg at 1px 1px, #fff 90deg, #ccc 0) 0px 0px/17px
+    17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news_container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+#news-refresh {
+  border: none;
+  background: none;
+  height: fit-content;
+  width: fit-content;
+  text-decoration: underline;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#news-refresh:hover {
+  cursor: pointer;
+}
+
+.news_post {
+  margin-bottom: 10px;
+}
+
+.news_post_header_a,
+.news_post_image_a,
+.news_post_description_a {
+  background-color: #979189;
+}
+
+.news_post_header_a {
+  height: 20px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.news_post_image_a {
+  height: 50px;
+  width: 50px;
+}
+
+.news_post_description_a {
+  height: 20px;
+  width: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.news_post_header,
+.news_post_description {
+  max-width: 280px;
+}
+
+.news_post_header {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.news_post_description {
+  margin-left: 10px;
+}
+
+.modal {
+  position: absolute;
+  background-color: #fff;
+  opacity: 0.9;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 10px;
+  display: flex;
+}
+
+.modal_error {
+  z-index: 99;
+  text-align: center;
+  align-self: center;
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
